@@ -1,0 +1,313 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+body{
+    width: 1024;
+    height: 768;
+    background-color: 3021bf;
+}
+
+
+.ahmed{
+    margin-top: 90px;
+    margin-left: 70px;
+    -o-animation: opacity .7s ease-in-out 0 1 normal;
+    animation: opacity 1s ease-in-out;
+    animation-delay: 3s;
+    animation-fill-mode: backwards;
+}
+
+
+
+.logo{
+    position: absolute;
+    top: 10px;
+    left: 1000px;
+    -o-animation: opacity 1s ease-in-out 0 1 normal;
+    animation: opacity 1s ease-in-out;
+}
+
+
+.type{
+    width: 610px;
+    height: 310px;
+    background-color: ff8a33;
+    position: absolute;
+    top: 222px;
+    left: 680px;
+    border-radius: 40px;
+    padding: 6px;
+    animation-name: scale,opacity;
+    animation-duration: 1.3s,0s;
+    animation-fill-mode: backwards;
+    animation-delay: 1.3s;
+    animation-timing-function: ease-in-out;
+    
+    
+}
+
+.name{
+    direction: rtl;
+    font-size: 40px;
+    font-family: 'Lalezar', cursive;
+    margin: 23px;
+    animation: opacity .5s ease-in-out;
+    animation-fill-mode: backwards;
+    animation-delay: 2.5s;
+}
+
+.text1{
+    direction: rtl;
+    font-size: 22px;
+    font-family: 'Changa', sans-serif;
+    margin-top: -10px;
+    color: #fff;
+    animation: opacity .5s ease-in-out;
+    animation-fill-mode: backwards;
+    animation-delay: 2.8s;
+}
+
+.text2{
+    direction: rtl;
+    font-size: 22px;
+    font-family: 'Changa', sans-serif;
+    margin-top: 17px;
+    color: #fff;
+    animation: opacity .5s ease-in-out;
+    animation-fill-mode: backwards;
+    animation-delay: 3.1s;
+}
+
+button{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background-color: #23d87d;
+    color: #fff;
+    position: relative;
+    animation: scale .7s ease-in-out;
+    animation-fill-mode: backwards;
+    transition: transform .2s ease-in-out;
+}
+
+button:hover{
+    transform: scale(1.12)
+}
+
+
+
+.btn1{
+    position: absolute;
+    top: 572px;
+    left: 720px;
+    border: 3px solid #23d87d;
+    animation-delay: 4s;
+}
+
+.btn2{
+    position: absolute;
+    top: 572px;
+    left: 905px;
+    background-color: #ff8a33;
+    border: 3px solid #ff8a33;
+    animation-delay: 4.2s;
+    
+}
+
+.btn3{
+    position: absolute;
+    top: 572px;
+    left: 1090px;
+    border: 3px solid #23d87d;
+    animation-delay: 4.4s;
+}
+
+a{
+    font-size: 41px;
+    font-family: 'Changa', sans-serif;
+    color: #fff;
+    text-decoration: none    
+}
+
+
+@keyframes opacity{
+    0%{opacity: 0%};
+    100%{opacity: 100%}
+}
+
+@keyframes scale{
+    0%{transform: scale(0)}
+    70%{transform: scale(1.2)}
+    100%{transform: scale(1)}
+}
+
+
+
+
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+    
+    
+    *{
+    margin: 0;
+    padding: 0;
+}
+
+
+body{
+    width: 1024;
+    height: 768;
+    background-color: 3021bf;
+}
+
+
+.ahmed{
+    margin-top: 374px;
+    margin-left: 191px;
+    -o-animation: opacity .7s ease-in-out 0 1 normal;
+    animation: opacity 1s ease-in-out;
+    width: 783.04;
+    height: 989.8175px;
+}
+
+
+
+.logo{
+    position: absolute;
+    top: 10px;
+    left: 680px;
+    -o-animation: opacity 1s ease-in-out 0 1 normal;
+    animation: opacity 1s ease-in-out;
+    width: 532px;
+    height: 272px
+}
+
+
+.type{
+    width: 1126px;
+    height: 560px;
+    background-color: #ff8a33;
+    position: absolute;
+    top: 1525px;
+    left: 60px;
+    border-radius: 40px;
+    padding: 6px;
+    animation-name: scale,opacity;
+    animation-duration: 1.3s,0s;
+    animation-fill-mode: backwards;
+    animation-delay: 1.3s;
+    animation-timing-function: ease-in-out;
+    
+    
+}
+
+.name{
+    direction: rtl;
+    font-size: 100px;
+    font-family: 'Lalezar', cursive;
+    margin: 23px;
+    animation: opacity .5s ease-in-out;
+    animation-fill-mode: backwards;
+    animation-delay: 2.5s;
+}
+
+.text1{
+    direction: rtl;
+    font-size: 43px;
+    font-family: 'Changa', sans-serif;
+    margin-top: -10px;
+    color: #fff;
+    animation: opacity .5s ease-in-out;
+    animation-fill-mode: backwards;
+    animation-delay: 2.8s;
+}
+
+.text2{
+    direction: rtl;
+    font-size: 43px;
+    font-family: 'Changa', sans-serif;
+    margin-top: 17px;
+    color: #fff;
+    animation: opacity .5s ease-in-out;
+    animation-fill-mode: backwards;
+    animation-delay: 3.1s;
+}
+
+button{
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    background-color: #23d87d;
+    color: #fff;
+    position: relative;
+    animation: scale .7s ease-in-out;
+    animation-fill-mode: backwards;
+    transition: transform .2s ease-in-out;
+}
+
+button:hover{
+    transform: scale(1.12)
+}
+
+
+
+.btn1{
+    position: absolute;
+    top: 2205px;
+    left: 150px;
+    border: 3px solid #23d87d;
+    animation-delay: 4s;
+}
+
+.btn2{
+    position: absolute;
+    top: 2205px;
+    left: 500px;
+    background-color: #ff8a33;
+    border: 3px solid #ff8a33;
+    animation-delay: 4.2s;
+    
+}
+
+.btn3{
+    position: absolute;
+    top: 2205px;
+    left: 850px;
+    border: 3px solid #23d87d;
+    animation-delay: 4.4s;
+}
+
+a{
+    font-size: 85px;
+    font-family: 'Changa', sans-serif;
+    color: #fff;
+    text-decoration: none    
+}
+
+
+@keyframes opacity{
+    0%{opacity: 0%};
+    100%{opacity: 100%}
+}
+
+@keyframes scale{
+    0%{transform: scale(0)}
+    70%{transform: scale(1.2)}
+    100%{transform: scale(1)}
+  
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
